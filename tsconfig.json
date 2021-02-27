@@ -1,0 +1,49 @@
+{
+  "extends": "./node_modules/adonis-preset-ts/tsconfig",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ],
+  "compilerOptions": {
+    "allowJs":true,
+    "alwaysStrict":true,
+    "esModuleInterop":true,
+    "jsx": "preserve",
+    "lib":["dom", "ES2017"],
+    "module":"CommonJS",
+    "moduleResolution":"Node",
+    "noFallthroughCasesInSwitch":true,
+    "noUnusedParameters":true,
+    "resolveJsonModule":true,
+    "skipLibCheck":true,
+    "strict":true,
+    "target":"ESNext",
+    "outDir": "build",
+    "rootDir": "./",
+    "sourceMap": true,
+    "paths": {
+      "App/*": [
+        "./app/*"
+      ],
+      "Config/*": [
+        "./config/*"
+      ],
+      "Contracts/*": [
+        "./contracts/*"
+      ],
+      "Database/*": [
+        "./database/*"
+      ]
+    },
+    "types": [
+      "@adonisjs/core",
+      "@adonisjs/repl",
+      "@adonisjs/session",
+      "@adonisjs/view"
+    ]
+  }
+}
