@@ -1,4 +1,5 @@
 const webpack = require('webpack')
+const Dotenv = require('dotenv-webpack')
 const mix = require('laravel-mix')
 
 require('laravel-mix-tailwind')
@@ -26,6 +27,11 @@ if (isDevelopment) {
 mix.webpackConfig({
   mode: isDevelopment ? 'development' : 'production',
   context: __dirname,
+  target: 'node',
+  output: {
+    hotUpdateChunkFilename: 'hot/hot-update.js',
+    hotUpdateMainFilename: 'hot/hot-update.json',
+  },
   node: {
     __filename: true,
     __dirname: true,
@@ -42,7 +48,8 @@ mix.webpackConfig({
       },
     ],
   },
-  plugins: [isDevelopment && new webpack.HotModuleReplacementPlugin()].filter(
-    Boolean
-  ),
+  plugins: [
+    isDevelopment && new webpack.HotModuleReplacementPlugin(),
+    new Dotenv(),
+  ].filter(Boolean),
 })

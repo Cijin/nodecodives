@@ -1,9 +1,11 @@
 import React, { StrictMode } from 'react'
 import { render } from 'react-dom'
 
+import { Mapbox } from './components'
+
 render(
   <StrictMode>
-    <h1>Hello</h1>
+    <Mapbox />
   </StrictMode>,
   document.getElementById('root')
 )
