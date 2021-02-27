@@ -1,5 +1,6 @@
 node_modules
 build
+hot
 coverage
 .vscode
 .DS_STORE
