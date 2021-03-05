@@ -9,7 +9,7 @@ git stash save -q --keep-index $STASH_NAME
 
 ## Run script file with tests
 test_result=1
-./Scripts/run_tests.sh
+./scripts/run-tests.sh
 test_result=$?
 
 STASH_NUM=$(git stash list | grep $STASH_NAME | sed -re 's/stash@\{(.*)\}.*/\1/')
