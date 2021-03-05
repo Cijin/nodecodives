@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "postinstall": "git config core.hooksPath ./scripts",
+    "lint": "eslint . --ext .tsx --ext .ts",
+    "type-check": "tsc",
     "build": "node ace build --production",
     "server": "node ace serve --watch",
     "client": "node ace mix:watch"
