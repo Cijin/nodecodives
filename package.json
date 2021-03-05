@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "git config core.hooksPath ./scripts",
     "build": "node ace build --production",
     "server": "node ace serve --watch",
     "client": "node ace mix:watch"
