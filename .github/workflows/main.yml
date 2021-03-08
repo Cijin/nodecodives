@@ -22,12 +22,12 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
       
       - name: Check lint, types, & tests
         run: |
-          npm run lint
-          npm run type-check
+          yarn lint
+          yarn type-check
           
       #npm run test
       #@TODO: add test script
