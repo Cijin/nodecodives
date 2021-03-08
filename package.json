@@ -6,9 +6,11 @@
     "postinstall": "git config core.hooksPath ./scripts",
     "lint": "eslint . --ext .tsx --ext .ts",
     "type-check": "tsc",
-    "build": "node ace build --production",
     "server": "node ace serve --watch",
-    "client": "node ace mix:watch"
+    "client": "node ace mix:watch",
+    "server:build": "node ace build --production",
+    "client:build": "node ace mix:build --production",
+    "build": "npm run client:build && npm run server:build"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^3.0.0",
@@ -30,6 +32,7 @@
     "babel-plugin-macros": "^3.0.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
     "dotenv-webpack": "^6.0.2",
     "eslint": "^7.20.0",
     "eslint-config-airbnb": "^18.2.1",
