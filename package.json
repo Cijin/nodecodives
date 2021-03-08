@@ -10,7 +10,7 @@
     "client": "node ace mix:watch",
     "server:build": "node ace build --production",
     "client:build": "node ace mix:build --production",
-    "build": "npm run client:build && npm run server:build"
+    "build": "yarn run client:build && yarn run server:build"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^3.0.0",
