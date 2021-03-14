@@ -9,19 +9,22 @@
     "build"
   ],
   "compilerOptions": {
-    "allowJs":true,
-    "alwaysStrict":true,
-    "esModuleInterop":true,
+    "allowJs": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
     "jsx": "preserve",
-    "lib":["dom", "ES2017"],
-    "module":"CommonJS",
-    "moduleResolution":"Node",
-    "noFallthroughCasesInSwitch":true,
-    "noUnusedParameters":true,
-    "resolveJsonModule":true,
-    "skipLibCheck":true,
-    "strict":true,
-    "target":"ESNext",
+    "lib": [
+      "dom",
+      "ES2017"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
     "outDir": "build",
     "rootDir": "./",
     "sourceMap": true,
@@ -43,7 +46,8 @@
       "@adonisjs/core",
       "@adonisjs/repl",
       "@adonisjs/session",
-      "@adonisjs/view"
+      "@adonisjs/view",
+      "@adonisjs/lucid"
     ]
   }
 }
