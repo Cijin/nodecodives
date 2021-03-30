@@ -2157,12 +2157,12 @@ acorn@^8.0.4:
   resolved "https://registry.npmjs.org/acorn/-/acorn-8.0.5.tgz"
   integrity sha512-v+DieK/HJkJOpFBETDJioequtc3PfxsWMaxIdIwujtF7FEV/MAyDQLlm6/zPvr7Mix07mLh6ccVwIsloceodlg==
 
-adonis-mix-asset@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.npmjs.org/adonis-mix-asset/-/adonis-mix-asset-2.2.1.tgz"
-  integrity sha512-IDC1goasO4WgrCVYNLNvtOT/nLCDq38PhqwXc12BN6tyfDI6b084pdGZmof76LdDS/MHoJxnQSVi9nlu3YYjyQ==
+adonis-mix-asset@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/adonis-mix-asset/-/adonis-mix-asset-2.3.0.tgz#954d9033363c0f2a3f4b88dbb98fb3368d22db10"
+  integrity sha512-/6x0QR2sEMgjFT9TEc3oHKdwQlDslGzSXEueEjgAxYgjX8iTcJ2p/jigbKky1I673TucbeRgGg1zKyUnXO+M4Q==
   dependencies:
-    webpack-bundle-analyzer "^4.3.0"
+    webpack-bundle-analyzer "^4.4.0"
 
 adonis-preset-ts@^2.1.0:
   version "2.1.0"
@@ -10709,9 +10709,9 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-webpack-bundle-analyzer@^4.3.0:
+webpack-bundle-analyzer@^4.4.0:
   version "4.4.0"
-  resolved "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.4.0.tgz#74013106e7e2b07cbd64f3a5ae847f7e814802c7"
   integrity sha512-9DhNa+aXpqdHk8LkLPTBU/dMfl84Y+WE2+KnfI6rSpNRNVKa0VGLjPd2pjFubDeqnWmulFggxmWBxhfJXZnR0g==
   dependencies:
     acorn "^8.0.4"
