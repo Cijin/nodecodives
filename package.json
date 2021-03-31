@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@adonisjs/assembler": "^3.0.0",
-    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
     "@types/geojson": "^7946.0.7",
     "@types/mapbox-gl": "^2.1.1",
