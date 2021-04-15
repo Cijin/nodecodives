@@ -10404,10 +10404,10 @@ tty-browserify@0.0.0:
   resolved "https://registry.npmjs.org/tty-browserify/-/tty-browserify-0.0.0.tgz"
   integrity sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
 
-twin.macro@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/twin.macro/-/twin.macro-2.3.0.tgz#0ce26e8dfb14e44ef6b75ccea2ddcd67a82bbabe"
-  integrity sha512-uC35EK6JCeRPZ8NA6ElY/v0oj6kcwRciP1pGV/3or9kO4MOe/FQwLovE4MSTBI6HpPSJtbwjc11Z/4t+fAzsmg==
+twin.macro@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/twin.macro/-/twin.macro-2.3.3.tgz#413d0bf7edc6a1fdfd6e18f10feaefd01aeac89b"
+  integrity sha512-98avi7wzfjNVR5qQcxRQwCg9CCLgdWhinilmASC+IXbkR/y6h5iHSp9uXdNDPMta/Xz5wyk0MJ8xA2zhhHMzZQ==
   dependencies:
     "@babel/parser" "^7.12.5"
     babel-plugin-macros "^2.8.0"
