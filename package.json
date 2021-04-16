@@ -49,7 +49,7 @@
     "prettier": "2.2.1",
     "sass": "^1.32.8",
     "sass-loader": "11.*",
-    "tailwindcss": "^2.0.4",
+    "tailwindcss": "^2.1.1",
     "ts-loader": "^8.1.0",
     "twin.macro": "^2.3.3",
     "typescript": "~4.2",
