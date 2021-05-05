@@ -1765,6 +1765,11 @@
   dependencies:
     source-map "^0.6.0"
 
+"@types/stack-trace@0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/stack-trace/-/stack-trace-0.0.29.tgz#eb7a7c60098edb35630ed900742a5ecb20cfcb4d"
+  integrity sha512-TgfOX+mGY/NyNxJLIbDWrO9DjGoVSW9+aB8H2yy1fy32jsvxijhmyJI9fDFgvz3YP4lvJaq9DzdR/M1bOgVc9g==
+
 "@types/styled-components@^5.1.9":
   version "5.1.9"
   resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.9.tgz#00d3d84b501420521c4db727e3c195459f87a6cf"
@@ -7500,10 +7505,10 @@ murmurhash-js@^1.0.0:
   resolved "https://registry.npmjs.org/murmurhash-js/-/murmurhash-js-1.0.0.tgz"
   integrity sha1-sGJ44h/Gw3+lMTcysEEry2rhX1E=
 
-mustache@^4.0.1:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/mustache/-/mustache-4.1.0.tgz"
-  integrity sha512-0FsgP/WVq4mKyjolIyX+Z9Bd+3WS8GOwoUTyKXT5cTYMGeauNTi2HPCwERqseC1IHAy0Z7MDZnJBfjabd4O8GQ==
+mustache@^4.0.1, mustache@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/mustache/-/mustache-4.2.0.tgz#e5892324d60a12ec9c2a73359edca52972bf6f64"
+  integrity sha512-71ippSywq5Yb7/tVYyGbkBggbU8H3u5Rz56fH60jGFgr8uHwxs+aSKeqmluIVzM0m0kB7xQjKS6qPfd0b2ZoqQ==
 
 nan@^2.12.1:
   version "2.14.2"
@@ -11021,11 +11026,12 @@ youch-terminal@^1.1.0:
   dependencies:
     kleur "^4.1.4"
 
-youch@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/youch/-/youch-2.1.1.tgz"
-  integrity sha512-qYN29wSKxAnECdcsTegBziyRXS3MWcTTefzViBN++/UulXCcIGT/VaQhDVeeKvVFpEaQ9EPv3OVJafPrDNU1+Q==
+youch@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/youch/-/youch-2.2.2.tgz#cb87a359a5c524ebd35eb07ca3a1521dbc7e1a3e"
+  integrity sha512-/FaCeG3GkuJwaMR34GHVg0l8jCbafZLHiFowSjqLlqhC6OMyf2tPJBu8UirF7/NI9X/R5ai4QfEKUCOxMAGxZQ==
   dependencies:
+    "@types/stack-trace" "0.0.29"
     cookie "^0.4.1"
-    mustache "^4.0.1"
+    mustache "^4.2.0"
     stack-trace "0.0.10"
