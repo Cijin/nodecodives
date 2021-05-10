@@ -41,7 +41,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "laravel-mix": "^6.0.13",
+    "laravel-mix": "^6.0.19",
     "laravel-mix-tailwind": "^0.1.2",
     "postcss": "^8.2.8",
     "pino-pretty": "^4.7.1",
